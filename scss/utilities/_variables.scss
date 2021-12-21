@@ -1,0 +1,34 @@
+// Color
+$primary-color: #58e1c1;
+$secondary-color: #51ddfc;
+$success-color: #63cc82;
+$error-color: #e4757a;
+$warning-color: #fd7856;
+$info-color: #927bc1;
+
+$col1-color: $info-color;
+$col2-color: $warning-color;
+$col3-color: #deb2ee;
+$col4-color: #7ee6fd;
+$col5-color: #88d9a0;
+$col6-color: #4da2bb;
+$col7-color: #ec9fa3;
+$col8-color: #fd9f85;
+$col9-color: $error-color;
+$col10-color: $success-color;
+$col11-color: $secondary-color;
+$col12-color: #80e8d1;
+
+// Lighten
+$secondary-color-lighten: lighten($secondary-color, 15%);
+$error-color-lighten: lighten($error-color, 15%);
+$success-color-ligthen: lighten($success-color, 15%);
+$warning-color-ligthen: lighten($warning-color, 15%);
+$info-color-lighten: lighten($info-color, 15%);
+
+// Type
+$font-weight: 300;
+$font-size: 1.5em;
+
+// Media Queries
+$break-m: 768px;

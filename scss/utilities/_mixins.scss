@@ -1,0 +1,14 @@
+/* ============================================= */
+/* Mixins                                        */
+/* ============================================= */
+
+@mixin images ($display: block, $mar-l: auto, $mar-r: auto, $mar-t: null, $mw: 100%, $mh: null, $pad: null, $brdr: null) {
+    display: $display;
+    margin-left: $mar-l;
+    margin-right: $mar-r;
+    margin-top: $mar-t;
+    max-width: $mw;
+    max-height: $mh;
+    padding: $pad;
+    border: $brdr;
+}

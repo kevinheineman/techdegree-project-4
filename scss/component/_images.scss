@@ -1,0 +1,15 @@
+/* ============================================= */
+/* Images                                        */
+/* ============================================= */
+
+.img {
+  &-logo {
+    @include images;
+  }
+  &-avatar {
+    @include images ($mar-t: 10px, $mh: 100%);
+  }
+  &-frame {
+    @include images ($mar-t: 10px, $pad: 13px, $brdr: 1px solid #ccc);
+  }
+}
