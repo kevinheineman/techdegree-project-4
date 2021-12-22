@@ -1,6 +1,4 @@
-/* ============================================= */
-/* Mixins                                        */
-/* ============================================= */
+// Mixins
 
 @mixin images ($display: block, $mar-l: auto, $mar-r: auto, $mar-t: null, $mw: 100%, $mh: null, $pad: null, $brdr: null) {
     display: $display;
